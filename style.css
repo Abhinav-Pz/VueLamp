@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{
+    background: #1d2026;
+    min-height: 100vh;
+    width: 100%;
+    color: white;
+    position: relative;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 8%;
+}
+nav .menu-img{
+    width: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+nav .logo{
+    width: 160px;
+    cursor: pointer;
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    background: #efefef;
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 0.5s ;
+
+}
+
+button span{
+    display: block;
+    background: #999;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    margin-left: 2px ;
+    transition: background 0.5s, margin-left 0.5s;
+}
+
+.lamp-container{
+    position: absolute;
+    top: -20px;
+    left: 22%;
+    width: 200px;
+
+}
+
+.lamp{
+    width: 100%;
+}
+
+.light{
+    position: absolute;
+    top: 97%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 700px;
+    margin-left: -10px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.text-container{
+    max-width: 600px;
+    margin-top: 7%;
+    margin-left: 50%;
+
+}
+
+.text-container h1{
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.text-container a{
+    text-decoration: none;
+    background: #00986f;
+    padding: 14px 40px ;
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius: 30px;
+
+}
+
+.control{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 150px;
+
+
+}
+
+.control .line{
+    width: 250px;
+    height: 4px;
+    background: #fff;
+    margin: 0 20px;
+    border-radius: 2px;
+
+}
+
+.control .line span{
+    width: 50px;
+    height: 8px;
+    margin-top: -2px;
+    border-radius: 4px;
+    background-color: #00986f;
+    display: block;
+}
+
+.active{
+    background: green;
+
+}
+
+.active span{
+    background: #fff;
+    margin-left: 31px;
+}
+
+.on{
+    opacity: 1;
+}
+
+.img-gallery{
+    display: flex;
+    
+    
+   
+  }
+  
+  .img-gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 10fr);
+      grid-gap: 70px;
+      padding: 0%;
+      margin: 0;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      padding-left: 19%;
+      padding-right: 19%;
+  }
+
+
+
+.gallery{
+    background-color: #1d2026;
+    
+    
+}
+.preorder{
+    background-color: #00986f;
+    padding: 5px;
+  }
+
+  .caption2{
+    font-family: "Exo 2";
+    padding-left: 190px;
+    font-size: 20px;
+    color: #1d2026;
+    margin-top: 40px;
+    
+  }
+  
+  .caption3{
+    padding-left: 190px;
+    font-size: 40px;
+    color: #1d2026;
+    font-weight: 700;
+  }
+
+  .more{
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    padding: 5px;
+    width: 140px;
+    margin-left: 260px;
+    font-family: "Exo 2";
+    box-shadow: 10px 10px 32px -9px rgba(0,0,0,0.75);
+background-color: white;
+
+
+    
+  
+  }
+
+  .para1{
+    margin-left: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    margin-right: 120px;
+    color: white;
+    
+}
+
+.img1{
+    display: flex;
+}
+
+.img2{
+    display: flex;
+    
+}
+.para2{
+    margin-left: 120px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+
+
+.bgcolor{
+    background-color: #1d2026;
+}
+
+.caption5{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    background-color: #00986f;
+    padding: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    
+
+  }
+
+  footer {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+    margin-top: 2rem;
+    background-color: black
+    
+}
+
+footer p {
+    max-width: 550px;
+    text-align: center;
+    color: grey;
+    
+}
+
+footer span {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: rgb(217, 183, 11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+
+}
+footer span:hover {
+    background-color: rgb(19, 18, 15);
+}
+body{
+    background-color: black;
+    
+}
